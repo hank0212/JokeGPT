@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
+
+# Optional experiment tracking (see .env.example)
+# comet_ml>=3.35

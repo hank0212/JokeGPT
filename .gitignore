@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+src/*.egg-info/
+.eggs/
+build/
+dist/
+venv/
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+
+# Data and generated checkpoints. The one committed checkpoint is force-added.
+/data/
+/checkpoints/*.pth
+!/checkpoints/model_128_4_4.pth
+
+# OS
+.DS_Store
